@@ -27,7 +27,7 @@ chmod +x plc_logger.py
 pgrep -fl plc_logger.py
 history | grep plc
 exit
-cd /home/user/projects/plc
+cd ~
 tail -f plc-log.txt
 du -sh plc-log.txt
 touch plc-log.txt

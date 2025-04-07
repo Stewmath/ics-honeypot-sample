@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+#
+# Monitors temperature and flow rate from the two PLC devices, logs to "plc-log.txt".
+
 from __future__ import annotations
  
 import os

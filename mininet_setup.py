@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 #
-# This configures the network configuration of the PLC devices and the scripts running them. It
-# bridges with the docker container so that they appear on the same subnet.
+# This script uses mininet to configure the network topology of the PLC devices and starts the
+# python scripts for each node. It bridges with the docker container so that they appear on the same
+# subnet.
  
 import sys, time
  

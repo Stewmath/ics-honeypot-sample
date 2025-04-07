@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 #
-# Simulates a PLC device.
+# Simulates one of two PLC devices (either a temperature sensor, or a valve that monitors flow
+# rate). Uses the modbus protocol, listens on port 502.
  
  
 # Parameters for temperature simulation (these are all 8.8 fixed-point values)
