@@ -1,0 +1,40 @@
+cd ~
+ls
+cat plc-log.txt
+tail -n 50 plc-log.txt
+tail -f plc-log.txt
+ps aux | grep plc_logger.py
+kill -9 2134
+python3 plc_logger.py &
+nano plc_logger.py
+top
+htop
+cd ~
+sudo apt update
+sudo apt upgrade
+clear
+df -h
+cd /var/log
+ls
+cat syslog | grep plc
+cd ~
+crontab -e
+cat /etc/crontab
+cd ~
+ls -l
+chmod +x plc_logger.py
+./plc_logger.py &
+pgrep -fl plc_logger.py
+history | grep plc
+exit
+cd /home/user/projects/plc
+tail -f plc-log.txt
+du -sh plc-log.txt
+touch plc-log.txt
+./plc_logger.py &
+uptime
+who
+last
+cd ~
+ls -lh
+cat plc-log.txt | tail -n 20
